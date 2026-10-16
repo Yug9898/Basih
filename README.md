@@ -2,7 +2,7 @@
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.18**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.19**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
 
 - Apple Silicon Macs on macOS 26 or later receive **My Basih**, with the native SwiftUI interface and Liquid Glass.
 - Earlier supported Apple Silicon Macs (macOS 13–25) receive the compatible **Basih** interface.

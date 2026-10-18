@@ -1,5 +1,8 @@
 # Basih downloads
 
+
+Mac bug-fix update **1.0002.00.27**: fixes Review → Link entry, removes an incorrect two-account requirement in Chase balance comparisons, and clears verified low-doubt imported entries from Review automatically. Ambiguous or changed bank records still need review. No new People opening-balance or shared-networking features are enabled. Existing data and bank connections are preserved.
+
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
 Mac release **1.0002.00.26**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.

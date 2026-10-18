@@ -2,7 +2,9 @@
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.25**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.26**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+
+- Activity entries support inline hard-click editing with expanding Save, Cancel and Delete controls. This release uses the normal app interface; TESTUI/TESTCOM shared-account experiments are disabled.
 
 - New native users start with a small orange glass panel. Choose New user for the five-page welcome guide; Restore backup appears when local backups are found. Profile creation happens with Enter app on the final page. Successful restoration opens Home.
 - Apple Silicon Macs on macOS 26 or later receive **My Basih**, with the native SwiftUI interface and Liquid Glass.

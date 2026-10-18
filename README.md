@@ -1,6 +1,9 @@
 # Basih downloads
 
 
+Mac update **1.0002.00.28**: Add entry → People now offers Credit (they owe you) and Debt (you owe them). Mark as opening balance identifies a starting amount owed and counts it once in People, without changing bank balances or spending. Includes the prior bank/review fixes. Shared-account networking remains disabled.
+
+
 Mac bug-fix update **1.0002.00.27**: fixes Review → Link entry, removes an incorrect two-account requirement in Chase balance comparisons, and clears verified low-doubt imported entries from Review automatically. Ambiguous or changed bank records still need review. No new People opening-balance or shared-networking features are enabled. Existing data and bank connections are preserved.
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)

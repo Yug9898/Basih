@@ -1,17 +1,17 @@
 # Basih downloads
 
+Mac update **1.0002.00.30** fixes pending-entry refresh and strengthens financial integrity. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
 
-Mac update **1.0002.00.29** brings the current My Basih local features to friends. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
-
-- Review keeps queued bank entries visible until reviewed, shows confidence, and offers Mark all reviewed without changing balances.
-- People supports optional opening balances, split removal, local hard-click settlement and deleting unused people (including empty zero-value placeholders).
-- Activity includes smart editing controls, person-paid purchases and People transfer destinations.
-- Connected account tiles flip on a three-second firm hold to show bank-versus-ledger details. Apple Card has a light pink/yellow tint.
-- Shared-account networking remains disabled, as in the current personal My Basih build.
+- Adding a pending bank record refreshes native Activity and account balances immediately, without restarting the app. Older refresh responses cannot replace newer page data.
+- The native Review badge includes waiting bank records that have not been added to Activity. Pending records already added are not counted again.
+- Existing unknown People openings remain unknown. Deleting a local person retains their balance, notes and financial history, including people with recorded entries.
+- Bank linking protects each account movement and its exact amount. Editing or deleting splits releases invalid repayment allocations while preserving the actual payment and revision history.
+- Unchanged pending splits post in place. Changed allocated amounts remain in Review for reconciliation without blocking unrelated sync.
+- Shared-account networking remains disabled in personal and Friends editions. Counterparty unlink approval applies to the isolated simulator only.
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.29**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.30**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
 
 - Activity entries support inline hard-click editing with expanding Save, Cancel and Delete controls. This release uses the normal app interface; TESTUI/TESTCOM shared-account experiments are disabled.
 
@@ -27,3 +27,5 @@ On macOS 26 or later, Home, Activity, People, Review, Raw mode, History, Analysi
 Windows: unzip, then double-click **Install Basih.cmd**. This Mac release does not change the Windows download.
 
 Downloads contain no personal ledgers, backups or API keys. Your financial records are stored locally on your computer.
+
+Known reporting issue: custom spending categories are currently omitted from period-report totals. Ledger balances and category spending totals remain available; correcting those reports is a follow-up priority.

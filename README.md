@@ -1,7 +1,10 @@
 # Basih downloads
 
-Mac update **1.0002.00.31** includes custom-category report totals, safer native save retries, and fewer redundant page loads, alongside the financial-integrity fixes. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
+Mac update **1.0002.00.32** keeps normal bank-sync downloads from blocking local balances and saves, alongside the report, retry, and financial-integrity fixes. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
 
+- Manual and startup bank sync fetch provider data and optional merchant suggestions outside the live ledger lock. Local reads and saves can proceed while those services respond.
+- If records, mappings, authorization or the database change during a download, the result is discarded and sync must be retried. Overlapping syncs cannot apply the same captured state twice.
+- Initial bank connection setup/disconnection retain their existing serialization; large-history pagination remains future work.
 - Custom spending categories now appear in Yearly reports and report totals, including refunds and viewer-hidden categories.
 - Native new-entry retries reuse a durable command ID after a lost reply, preventing duplicate financial entries. A completed save allows a new intentional identical entry. This retry protection does not yet apply to the compatibility web interface.
 - Repeated automatic loads for the same native page and data generation are suppressed.
@@ -14,7 +17,7 @@ Mac update **1.0002.00.31** includes custom-category report totals, safer native
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.31**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.32**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
 
 - Activity entries support inline hard-click editing with expanding Save, Cancel and Delete controls. This release uses the normal app interface; TESTUI/TESTCOM shared-account experiments are disabled.
 

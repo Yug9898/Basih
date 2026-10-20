@@ -1,14 +1,17 @@
 # Basih downloads
 
 
-Mac update **1.0002.00.28**: Add entry → People now offers Credit (they owe you) and Debt (you owe them). Mark as opening balance identifies a starting amount owed and counts it once in People, without changing bank balances or spending. Includes the prior bank/review fixes. Shared-account networking remains disabled.
+Mac update **1.0002.00.29** brings the current My Basih local features to friends. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
 
-
-Mac bug-fix update **1.0002.00.27**: fixes Review → Link entry, removes an incorrect two-account requirement in Chase balance comparisons, and clears verified low-doubt imported entries from Review automatically. Ambiguous or changed bank records still need review. No new People opening-balance or shared-networking features are enabled. Existing data and bank connections are preserved.
+- Review keeps queued bank entries visible until reviewed, shows confidence, and offers Mark all reviewed without changing balances.
+- People supports optional opening balances, split removal, local hard-click settlement and deleting unused people (including empty zero-value placeholders).
+- Activity includes smart editing controls, person-paid purchases and People transfer destinations.
+- Connected account tiles flip on a three-second firm hold to show bank-versus-ledger details. Apple Card has a light pink/yellow tint.
+- Shared-account networking remains disabled, as in the current personal My Basih build.
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.26**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.29**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
 
 - Activity entries support inline hard-click editing with expanding Save, Cancel and Delete controls. This release uses the normal app interface; TESTUI/TESTCOM shared-account experiments are disabled.
 

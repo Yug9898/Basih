@@ -1,7 +1,10 @@
 # Basih downloads
 
-Mac update **1.0002.00.30** fixes pending-entry refresh and strengthens financial integrity. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
+Mac update **1.0002.00.31** includes custom-category report totals, safer native save retries, and fewer redundant page loads, alongside the financial-integrity fixes. Existing records, backups and Keychain credentials stay on each user's Mac; the download contains no personal or test data.
 
+- Custom spending categories now appear in Yearly reports and report totals, including refunds and viewer-hidden categories.
+- Native new-entry retries reuse a durable command ID after a lost reply, preventing duplicate financial entries. A completed save allows a new intentional identical entry. This retry protection does not yet apply to the compatibility web interface.
+- Repeated automatic loads for the same native page and data generation are suppressed.
 - Adding a pending bank record refreshes native Activity and account balances immediately, without restarting the app. Older refresh responses cannot replace newer page data.
 - The native Review badge includes waiting bank records that have not been added to Activity. Pending records already added are not counted again.
 - Existing unknown People openings remain unknown. Deleting a local person retains their balance, notes and financial history, including people with recorded entries.
@@ -11,7 +14,7 @@ Mac update **1.0002.00.30** fixes pending-entry refresh and strengthens financia
 
 [Download Basih for Mac](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Friend.zip) · [Download Basih for Windows](https://github.com/Yug9898/Basih/raw/refs/heads/main/Basih-for-Windows.zip)
 
-Mac release **1.0002.00.30**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
+Mac release **1.0002.00.31**: unzip and double-click **Install Basih.command**. Existing users can choose **Settings → Updates → Update Basih** in their old app.
 
 - Activity entries support inline hard-click editing with expanding Save, Cancel and Delete controls. This release uses the normal app interface; TESTUI/TESTCOM shared-account experiments are disabled.
 
@@ -28,4 +31,3 @@ Windows: unzip, then double-click **Install Basih.cmd**. This Mac release does n
 
 Downloads contain no personal ledgers, backups or API keys. Your financial records are stored locally on your computer.
 
-Known reporting issue: custom spending categories are currently omitted from period-report totals. Ledger balances and category spending totals remain available; correcting those reports is a follow-up priority.

@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "ready": false,
+  "channel": "stable",
+  "url": "https://github.com/Yug9898/Basih/releases/download/tune-v0.1.0/Tune.zip",
+  "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "bytes": 0,
+  "minimumMacOSMajor": 14,
+  "teamID": ""
+}

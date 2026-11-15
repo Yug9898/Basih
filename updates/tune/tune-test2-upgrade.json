@@ -1,10 +1,10 @@
 {
-  "version": "26.6.3",
+  "version": "26.6.4",
   "ready": true,
   "channel": "test-2",
-  "url": "https://github.com/Yug9898/Basih/releases/download/tune-test2-v26.6.3/TUNE_TEST2.zip",
-  "sha256": "e30bab2dfc2ba583a56af99fe24266af8c527d90e5de0016cc4a30bc73eab7a3",
-  "bytes": 26182523,
+  "url": "https://github.com/Yug9898/Basih/releases/download/tune-test2-v26.6.4/TUNE_TEST2.zip",
+  "sha256": "faf16ce82900c29ccdf4c89e91daf7efa06b1fbe0c1f64276b2d5580a019f7b1",
+  "bytes": 26237153,
   "minimumMacOSMajor": 14,
   "teamID": ""
 }

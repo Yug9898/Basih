@@ -1,10 +1,10 @@
 {
-  "version": "26.6.25",
+  "version": "26.6.27",
   "ready": true,
   "channel": "personal-preview",
-  "url": "https://github.com/Yug9898/Basih/releases/download/my-tune-v26.6.25/My-Tune.zip",
-  "sha256": "d3b6c51253709ed02c72a4aa827662311a981cb3a120d9627dda2c2e240e0d0a",
-  "bytes": 22402916,
+  "url": "https://github.com/Yug9898/Basih/releases/download/my-tune-v26.6.27/My-Tune.zip",
+  "sha256": "54172999fb6dd7d3dee3c54684e847cd783990894709dba7b3fc3b7056ba4e61",
+  "bytes": 22427059,
   "minimumMacOSMajor": 14,
   "teamID": ""
 }

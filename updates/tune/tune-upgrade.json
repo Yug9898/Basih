@@ -1,10 +1,10 @@
 {
-  "version": "26.6.25",
+  "version": "26.6.27",
   "ready": true,
   "channel": "friend-preview",
-  "url": "https://github.com/Yug9898/Basih/releases/download/tune-v26.6.25/Tune.zip",
-  "sha256": "73afb11fb6479fe7e4b208f746410be468ef8bff84cc890038a44c4b1563f852",
-  "bytes": 22176238,
+  "url": "https://github.com/Yug9898/Basih/releases/download/tune-v26.6.27/Tune.zip",
+  "sha256": "b264e056e7b5afd85c00ae0d6c1f2c60d51dada7fb7b87d455dc03985e7ca6e4",
+  "bytes": 22200383,
   "minimumMacOSMajor": 14,
   "teamID": ""
 }
